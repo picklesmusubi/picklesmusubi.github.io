@@ -1,0 +1,157 @@
+h1 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2.5em;
+	font-weight: 800px;
+	margin-bottom: 0em;
+}
+
+p {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height: 2em;
+	font-size: 1.5em:;
+}
+
+nav {
+	font-family: Arial; sans-serif;
+	background-color: #ffffff;
+}
+
+a {
+	background-color: #ffffff;
+	color: black;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 20px;
+}
+
+nav a:hover {
+	color:  #f4cb94;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.left {
+	background-color: #f5bf8f;
+	width:580px;
+	float:left;
+	height: 60px;
+	padding: px 10px;
+	vertical-align: center;
+}
+
+#hero {
+	display: block;
+	width: 100%
+	margin: 0;
+	text-align: center;
+	margin-bottom: 3em;
+	height: 50%;
+}
+
+#ourmission {
+	margin: 8em;
+}
+
+.wrapper {
+	background-color: #fedcae;
+	width: 1200px;
+	height: 26em;
+	margin-bottom: 5em;
+	margin-top: 7em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+#findus {
+	background-color: #fedcae;
+	width: 300px;
+	margin: 5px;
+	margin-top: 14px;
+	border: 5px;
+	border-color: white;
+	border-style: solid;
+	float:left;
+	height: 23em;
+	color: white;
+}
+
+#ourmenu {
+	background-color: #fedcae;
+	width: 300px;
+	margin: 5px;
+	margin-top: 14px;
+	border: 5px;
+	border-color: white;
+	border-style: solid;
+	float:left;
+	height: 23em;
+	color: white;
+}
+
+#aboutus {
+	background-color: #fedcae;
+	width: 300px;
+	margin: 5px;
+	margin-top: 14px;
+	border: 5px;
+	border-color: white;
+	border-style: solid;
+	float:left;
+	height: 23em;
+	color: white;
+}
+
+#orangepic {
+	display: block;
+	margin-right: auto;
+	margin-right: auto;
+	text-align: center;
+}
+ 
+ .social{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+#facebook {
+		padding: 1px 15px 15px 15px;
+}
+
+#twitter {
+		padding: 1px 15px 15px 15px;
+}
+
+#instagram {
+		padding: 1px 15px 15px 15px;
+}
+
+#footer {
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding: 15px;
+		font-size: 1.5em;
+		font-family: 'Pacifico', cursive;
+}
