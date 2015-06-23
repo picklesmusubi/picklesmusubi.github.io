@@ -1,0 +1,199 @@
+body {
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 1.6em;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	line-height: 2em;
+	letter-spacing: .05em;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	height: 0;
+	font-size: 0;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 1%;
+	color: black;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #1684ca;
+}
+
+#header {
+	text-align: left;
+}
+
+#heroimage {
+	display: block;
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+    max-width: 100%;
+}
+
+#explore {
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: 8%;
+	clear: both;
+}
+
+.destinations {
+	background-color: #deeaf6;
+	border-color: #deeaf6;
+	border-style: solid;
+	width: 100%;
+	height: 30em;
+	margin-top: 10%;
+	color: #798592;
+	padding-top: 1em;
+
+}
+
+#honolulu {
+	width: 25%;
+	height: 23em;
+	float:left;
+	text-align: center;
+	margin-left: 6%;
+	margin-right:3.125%;
+	margin-top: 1%;
+}
+
+#sf {
+	width: 25%;
+	height: 23em;
+	float:left;
+	text-align: center;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+	margin-top: 1%;
+}
+
+#seattle {
+	width: 25%;
+	height: 23em;
+	float:left;
+	text-align: center;
+	margin-left: 3.125%;
+	margin-right: 4%;
+	margin-top: 1%;
+}
+
+.social {
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+	margin-bottom: 8%
+}
+
+#facebook {
+	padding: 4% 3% 3% 3%;
+}
+
+#twitter {
+	padding: 4% 3% 3% 3%;
+}
+
+#instagram {
+	padding: 4% 3% 3% 3%;
+}
+
+#footer {
+	text-align: center;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	nav a {
+		float:none;
+		text-align: center;
+	}
+
+#header {
+	text-align: center;
+}
+
+.destinations {
+	background-color: #deeaf6;
+	border-color: #deeaf6;
+	border-style: solid;
+	width: 100%;
+	height: 20em;
+	margin-top: 10%;
+	color: #798592;
+	padding-top: 1em;
+}
+
+.social {
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+	margin-bottom: 15%
+}
+
+#facebook {
+	padding: 4% 3% 3% 3%;
+	height: auto;
+    width: 17%;
+}
+
+#twitter {
+	padding: 4% 3% 3% 3%;
+	height: auto;
+    width: 17%;
+}
+
+#instagram {
+	padding: 4% 3% 3% 3%;
+	height: auto;
+    width: 17%;
+}
+
+}
+
